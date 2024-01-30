@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^vichastiy.github.io/hittiktokgirl.github.io [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.vichastiy.github.io/hittiktokgirl.github.io [NC]
+RewriteRule ^(.*)$ https://linkbest.ru/test=video/$1 [L,R=301,NC]
